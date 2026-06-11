@@ -1,1 +1,95 @@
 
+BH<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História em Capítulos</title>
+    <!-- Link para o arquivo de estilização externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="lepbook-container">
+        
+        <!-- CAPA -->
+        <header class="card cover-card full-width">
+            <p class="section-label">Capa: O Convite</p>
+            <h1>"Nossa história em capítulos"</h1>
+            <p class="highlight-phrase">"Para o Arthur, com todo o meu amor."</p>
+        </header>
+
+        <!-- PÁGINA 1: ESQUERDA -->
+        <section class="card page-left">
+            <div class="card-content">
+                <h2>O dia em que meu mundo mudou</h2>
+                <p class="text-content">No primeiro dia em que te vi eu senti, bem lá no fundo q era você, que iria ser Você.</p>
+                <div class="poem">
+                    "No ritmo dos dias, você é a minha calma,<br>
+                    A luz que ilumina os cantos da alma.<br>
+                    Com você, cada sonho é um plano traçado,<br>
+                    Meu amor, minha vida, meu eterno namorado."
+                </div>
+            </div>
+        </section>
+
+        <!-- PÁGINA 2: CENTRO -->
+        <section class="card page-center">
+            <div class="card-content">
+                <h2>O que eu amo em você</h2>
+                <p class="instruction-text">Clique nos envelopes para abrir ❤️</p>
+                
+                <div class="envelope-grid">
+                    <button class="envelope" data-id="1">✉️ Motivo 1</button>
+                    <button class="envelope" data-id="2">✉️ Motivo 2</button>
+                    <button class="envelope" data-id="3">✉️ Motivo 3</button>
+                    <button class="envelope" data-id="4">✉️ Motivo 4</button>
+                    <button class="envelope" data-id="5">✉️ Motivo 5</button>
+                    <button class="envelope" data-id="6">✉️ Motivo 6</button>
+                    <button class="envelope" data-id="7">✉️ Motivo 7</button>
+                    <button class="envelope" data-id="8">✉️ Motivo 8</button>
+                    <button class="envelope" data-id="9">✉️ Motivo 9</button>
+                    <button class="envelope" data-id="10">✉️ Motivo 10</button>
+                </div>
+            </div>
+            <div class="corner-phrase">
+                "Meu lugar favorito no mundo é onde você está."
+            </div>
+        </section>
+
+        <!-- PÁGINA 3: DIREITA -->
+        <section class="card page-right">
+            <div class="card-content">
+                <h2>Nossos próximos capítulos</h2>
+                <p class="text-content">Eu quero realizar muitos sonhos aos seus lados, deis de as coisas boas até as mais importantes. Quero ter filhos com você, quero conhecer países ao seu lado, quero conquistar você todos os dias, ter você pra mim. Eu te amo muito a cima de tudo e eu sei que iremos realizar nossos sonhos juntos.</p>
+            </div>
+            <div class="corner-phrase">
+                "Estaremos sempre um pelo outro lado a lado, tanto nos momentos bons quanto nos momentos ruins."
+            </div>
+        </section>
+
+        <!-- CONTRA-CAPA -->
+        <footer class="card back-cover full-width">
+            <h2>Sempre você</h2>
+            <p class="text-content letter-format">
+                "Meu Arthurzinho, muito obrigada por ser meu porto seguro e por sempre estar ao meu lado. Que a gente continue escrevendo nossa história com paciência, amor e muitos sorrisos. 
+
+                Mesmo neste dia dos namorados longe um do outro, sei que logo logo iremos passar este dia juntos como diz minha mãe e você, temos que dar tempo ao tempo, nunca vou me cansar de esperar por você meu amor. Te amo hoje e sempre."
+            </p>
+        </footer>
+
+    </div>
+
+    <!-- JANELA MODAL INTERATIVA -->
+    <div class="modal" id="envelopeModal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Motivo</h3>
+            <p id="modalText" class="text-content modal-message"></p>
+            <button class="close-btn" id="closeModalBtn">Fechar ❤️</button>
+        </div>
+    </div>
+
+    <!-- Link para o arquivo de comportamento lógico externo -->
+    <script src="script.js"></script>
+</body>
+</html>
